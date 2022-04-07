@@ -17,23 +17,24 @@ export const Features = (props) => {
         <div class="row align-items-md-stretch">
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-dark rounded-3">
-          <h2>Kancelaria dla zarządu i rady nadzorczej.</h2><br></br>
+          <div id="kancelaria.text"><h2>Kancelaria dla zarządu i rady nadzorczej</h2><br></br>
           <p>
           W zespole Kancelarii współpracują eksperci z dziedzin niezbędnych dla zapewnienia
-kompleksowej obsługi prawnej podmiotów gospodarczych takich jak:
-- spółki z ograniczoną odpowiedzialnością, w tym z udziałem JST,
-- spółki osobowe, w szczególności spółki jawne i komandytowe,
-- spółdzielnie, w szczególności spółdzielnie mieszkaniowe.
+kompleksowej obsługi prawnej podmiotów gospodarczych takich jak:<br></br><br></br>
+<li> spółki z ograniczoną odpowiedzialnością, w tym z udziałem JST,</li>
+<li> spółki osobowe, w szczególności spółki jawne i komandytowe,</li>
+<li> spółdzielnie, w szczególności spółdzielnie mieszkaniowe.</li>
 <br></br>
 <br></br>
 <br></br>
-<h5>Więcej niż prawo.</h5>
+<h5>Więcej niż prawo</h5>
 <br></br>
 Znajomość przepisów prawa to podstawa. Dla wypracowania optymalnego rozwiązania
 potrzeba czegoś więcej - poznania źródła problemu oraz zrozumienia złożoności aspektów
 ekonomicznych i gospodarczych. To właśnie zapewniamy, gdy potrzebne jest skuteczne
 rozwiązanie.
      </p>
+     </div>
         </div>
       </div>
       <div class="col-md-6">

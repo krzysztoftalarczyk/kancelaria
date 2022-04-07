@@ -77,7 +77,7 @@ export const Features1 = (props) => {
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-dark rounded-3">
-          <h2>Indywidualne dopasowanie.</h2><br></br>
+          <h2>Indywidualne dopasowanie</h2><br></br>
           <p>
           
 Realia rynkowe i regulacje prawne zmieniają się dynamicznie. Rozumiemy to i wiemy jak
@@ -87,14 +87,14 @@ z Klientem na miarę jego indywidualnych potrzeb.
 <br></br>
 <br></br>
 <br></br>
-<h5>Efekt.</h5>
+<h5>Efekt</h5>
 <br></br>
-Efektem takiego połączenia jest możliwość:
-- zastosowania pragmatycznych rozwiązań,
-- realizacji założonych celów,
-- wysokiej skuteczności w sprawie,
-- ograniczenia ryzyka gospodarczego i prawnego,
-- dostrzegania nowych kierunków rozwoju.
+Efektem takiego połączenia jest możliwość:<br></br><br></br>
+<li> zastosowania pragmatycznych rozwiązań,</li>
+<li> realizacji założonych celów,</li>
+<li> wysokiej skuteczności w sprawie,</li>
+<li> ograniczenia ryzyka gospodarczego i prawnego,</li>
+<li> dostrzegania nowych kierunków rozwoju.</li>
      </p>
           
         </div>

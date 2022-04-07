@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import map from '../data/map1.png'
 
 const initialState = {
   name: '',
@@ -36,7 +37,19 @@ export const Contact = (props) => {
     <div>
       <div id='contact'>
         <div className='container'>
-        <div className='col-md-3 col-md-offset-1 contact-info'>
+        
+    
+        
+        
+        
+        
+        <div className='col-md-4 col-md-offset-0 contact-info'>
+           <div><i> Ogólnopolski zasięg.
+             <br></br> Indywidualne podejście.
+Łączymy to co najlepsze.</i><br></br><br></br></div>
+           <p>
+           <img src={map}  alt=""/>
+           </p>
             <div className='contact-item'>
               <h3>Kontakt</h3>
               <p>
@@ -62,9 +75,24 @@ export const Contact = (props) => {
                 {props.data ? props.data.email : 'loading'}
               </p>
             </div>
+            <div style={{"font-size": '8px'}}>
+            Informacja o wizytach w kancelarii do końca 2022 r. - Ze względu na zapewnienie bezpieczeństwa
+epidemiologicznego naszym Klientom i pracownikom, wizyta w kancelarii osób nieobjętych stacjonarną stałą
+obsługą prawną jest możliwa wyłącznie po wcześniejszym uzgodnieniu telefonicznym.
+
+            </div>
           </div>
           <div className='col-md-8'>
             <div className='row'>
+              <p style={{"margin-bottom":"80px"}}>Szanowni Państwo,
+w tych trudnych chwilach, chcemy być jeszcze bliżej Państwa problemów, dlatego
+wszystkim stale obsługiwanym Klientom będziemy pomagali nie tylko w zakresie bieżących
+zagadnień prawnych, ale także w związku z nowopowstałymi zagadnieniami wynikającymi
+z wprowadzaniem i znoszeniem stanu zagrożenia epidemiologicznego oraz sytuacją na
+wschodzie, a także związaną z tym imigracją. Więcej informacji można uzyskać bezpośrednio
+u prawnika kierującego obsługą. Poza tym, dla stale obsługiwanych stałych Klientów zasady
+współpracy nie zmieniły się.
+Życząc powodzenia, pozostajemy do Państwa dyspozycji.</p>
               <div className='section-title'>
                 <h2>Jak możemy ci pomóc?</h2>
                 <p>
@@ -114,7 +142,29 @@ export const Contact = (props) => {
                   ></textarea>
                   <p className='help-block text-danger'></p>
                 </div>
+                
+                <div className="col-sm-12">
+
+          
+                <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+  <label class="form-check-label" for="flexCheckDefault">Poznaj nasz <a href="https://example.com/faq.html"> regulamin </a></label>
+</div>
+<br></br>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+  <label class="form-check-label" for="flexCheckChecked">Przykładowa zgoda</label>
+</div>
+
+            
+          
+
+        </div>
                 <div id='success'></div>
+               
+
+
                 <button type='submit' className='btn btn-custom btn-lg'>
                   Wyślij wiadomość
                 </button>
